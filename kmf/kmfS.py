@@ -2,10 +2,10 @@ from bs4 import BeautifulSoup
 from urllib.request import urlopen
 import csv
 
-site = "https://toefl.kmf.com/listen/ets/order"
+site = "https://toefl.kmf.com/speak/ets/order"
 site0 = "https://toefl.kmf.com"
 qsites ={}
-fw = open('listen.csv','w')
+fw = open('speak.csv','w')
 
 for cl in ['/1/0','/2/0','/3/0','/4/0','/5/0']:
     for i in ['/1','/2','/3','/4']:
